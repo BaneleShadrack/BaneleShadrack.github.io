@@ -150,3 +150,67 @@ section {
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(to bottom, #6cff52, #3ec5ff);
 }
+
+#About {
+  background-color: var(--second-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5em;
+}
+
+#About img {
+  width: 30vw;
+  border-radius: 1em;
+}
+
+.aboutBox {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 2em;
+}
+
+.abooutBox h1 {
+  font-size: 5em;
+}
+.aboutBox p {
+  color: white;
+  opacity: 0.8;
+}
+
+.skills {
+  display: flex;
+  text-align: left;
+  gap: 10em;
+}
+
+.skills ul {
+  font-size: 1.3em;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  opacity: 0.7;
+  align-items: baseline;
+}
+
+.skills ul li span {
+  display: flex;
+  gap: 0.5em;
+  font-size: 1.3em;
+  transition: 0.3s ease-in-out;
+  align-items: center;
+}
+
+.skills ul li span:hover {
+  transform: translateX(10px);
+}
+
+.skills ul li i {
+  font-size: 1.2em;
+}
+
+.aboutBox h2 {
+  font-size: 2.5em;
+}
