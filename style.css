@@ -291,3 +291,60 @@ form input {
 form input:focus {
   background: rgb(229, 229, 229);
 }
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10em;
+  bottom: 0;
+  background-color: var(--background);
+  width: 100%;
+  padding: 5em 15%;
+}
+
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.columnBox {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.columnBox i {
+  font-size: 2em;
+}
+.columnBox span {
+  font-size: 1.2em;
+}
+
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  color: white;
+  max-width: 500px;
+}
+.rightColumn span {
+  font-size: 1.3em;
+}
+
+.rightColumn .socialIcons {
+  display: flex;
+  align-items: baseline;
+  justify-content: left;
+  gap: 1em;
+}
+
+.rightColumn .socialIcons i {
+  font-size: 2em;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.socialIcons i:hover {
+  color: white;
+}
